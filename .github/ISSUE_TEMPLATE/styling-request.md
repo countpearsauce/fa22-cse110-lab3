@@ -9,4 +9,4 @@ assignees: ''
 
 ## Explain what should be changed.
 
-# Any additional info about the html element, specific properties or values
+## Any additional info about the html element, specific properties or values
