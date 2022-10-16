@@ -72,3 +72,7 @@ body {
     top: 10px;
     left: 10vw;
 }
+
+#picture_move {
+    position: static;
+}
