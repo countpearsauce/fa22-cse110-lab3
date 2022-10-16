@@ -13,8 +13,10 @@ body {
 }
 
 .box.secondary {
-    width: 220px;
+    width: 22vw;
     height: 6em;
+    min-width: 150px;
+    max-width: 200px;
     margin-top:0px;
     margin-bottom:10px;
     margin-left:0px;
