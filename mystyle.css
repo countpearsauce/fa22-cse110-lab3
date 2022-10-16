@@ -93,3 +93,7 @@ a[href] {
     font-family: raleway;
     src: url("Raleway-VariableFont_wght.ttf");
 }
+
+body {
+    font-family: raleway;
+}
