@@ -1,3 +1,13 @@
 body {
     background-color:rgba(0,50,100,.1);
 }
+
+.box {
+    width: 180px;
+    inline-size: 4.76cm;
+    height: lh;
+    block-size: lh;
+    margin: ex;
+    padding: .5cm;
+    border: .3vmin solid black;
+}
