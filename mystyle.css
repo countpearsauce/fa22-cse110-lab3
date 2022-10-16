@@ -84,3 +84,16 @@ button:hover {
 button:active {
     background-color:green;
 }
+
+a[href] {
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url("Raleway-VariableFont_wght.ttf");
+}
+  
+body {
+    font-family: raleway;
+}
