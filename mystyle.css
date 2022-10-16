@@ -66,3 +66,9 @@ body {
 
 
 }
+
+#video_move {
+    position: relative;
+    top: 10px;
+    left: 10vw;
+}
