@@ -76,3 +76,11 @@ body {
 #picture_move {
     position: static;
 }
+
+button:hover {
+    background-color:yellow;
+}
+
+button:active {
+    background-color:green;
+}
