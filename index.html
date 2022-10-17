@@ -67,7 +67,6 @@
       Jeremy doing an aerial at MAE 2022
     </details>
       
-    
 
     <h3 style="color:blue";>3. Practice Schedule</h3>
     <div class="block">
@@ -111,24 +110,45 @@
 
     <fieldset>
       <form>
-        Do you want to be added to our email list? 
-        <input type="checkbox">
-        <br>
+        <div class="email_box">
+          <div class="email_question">
+            Do you want to be added to our email list? 
+            <input type="checkbox">
+          </div>
 
-        Enter your email: 
-        <input type="text">
-        <br>
+          <div class="email">
+            Enter your email: 
+            <input type="text">
+          </div>
+
+          <div class="newsletter">
+            Do you want to receive promotional content? 
+            <input type="checkbox">
+          </div>
+
+          <br>
+        </div>
 
         Enter year:
         <br>
-        <input type="radio" name="class" id="freshman">
-        <label for="freshman">Freshman</label><br>
-        <input type="radio" name="class" id="sophomore">
-        <label for="sophomore">Sophomore</label><br>
-        <input type="radio" name="class" id="junior" value="Junior">
-        <label for="junior">Junior</label><br>
-        <input type="radio" name="class" id="senior" value="Senior">
-        <label for="senior">Senior</label><br>
+        <div class="mc_question", style="order:1">
+          <div class="mc_answer">
+            <input type="radio" name="class" id="freshman">
+            <label for="freshman">Freshman</label><br>
+          </div>
+          <div class="mc_answer", style="order:2">
+            <input type="radio" name="class" id="sophomore">
+            <label for="sophomore">Sophomore</label><br>
+          </div>
+          <div class="mc_answer", style="order:3">
+            <input type="radio" name="class" id="junior" value="Junior">
+            <label for="junior">Junior</label><br>
+          </div>
+          <div class="mc_answer", style="order:4">
+            <input type="radio" name="class" id="senior" value="Senior">
+            <label for="senior">Senior</label><br>
+          </div>
+        </div>
       
         Enter date: 
         <input type="date">
