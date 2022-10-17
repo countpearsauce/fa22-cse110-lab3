@@ -149,3 +149,9 @@ block {
 * {
     color:rgb(40,40,40)
 }
+
+h1,
+h2,
+h3 {
+    font-style: oblique;
+}
