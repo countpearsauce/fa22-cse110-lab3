@@ -97,3 +97,11 @@ a[href] {
 body {
     font-family: raleway;
 }
+
+inline {
+    display:inline;
+}
+
+block {
+    display:block;
+}
