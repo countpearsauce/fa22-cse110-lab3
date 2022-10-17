@@ -105,3 +105,36 @@ inline {
 block {
     display:block;
 }
+
+.mc_question {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+.mc_answer {
+    flex-shrink: 1;
+    align-self: flex-start;
+}
+
+.email_box {
+    display:grid;
+    grid-template-columns: [start] 350px [second] 180px [third] 200px [fourth] 200px;
+    align-content: center;
+
+}
+
+.email_question {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.email {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.newsletter {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
